@@ -1,0 +1,31 @@
+using System;
+
+namespace logic
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int karar=Convert.ToInt32(Console.ReadLine());
+
+            switch (karar)
+            {
+                case 1:
+                Console.WriteLine("yazı");
+                break;
+                case 2:
+                Console.WriteLine("tura");
+                break;
+            }
+
+            Console.ReadKey();
+
+
+
+
+
+
+           
+        }
+    }
+}
